@@ -11,7 +11,7 @@
     font-size: 14px;
     height: 7rem;
     background-color: #fff;
-    border-bottom: 1px solid var(--color-grey-light-2);
+    border-bottom: var(--grey-line);
 
     display: flex;
     justify-content: space-between;
@@ -43,5 +43,22 @@
  
 
 .detail {
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--grey-line);
+}
 
+.description {
+    background-color: #fff;
+    box-shadow: --shadow-light;
+    padding: 3rem;
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+}
+
+
+.user-reviews {
+    background-color: yellowgreen;
+    flex: 1;
 }
